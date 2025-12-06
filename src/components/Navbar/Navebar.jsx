@@ -54,11 +54,9 @@ const Navebar = () => {
           </button>
         </div>
       </div>
-      <div>
-        <button className="text-xl md:hidden">
-          <IoMenu />
-        </button>
-      </div>
+      <button className="text-xl md:hidden">
+        <IoMenu />
+      </button>
     </div>
   );
 };

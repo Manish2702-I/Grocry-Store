@@ -1,6 +1,9 @@
 import React from "react";
 import Navebar from "../Navbar/Navebar";
 import Hero from "../Hero/Hero";
+import Value from "../Values/Value";
+import Catogary from "../Catogary/Catogary";
+import Product from "../Products/Product";
 
 const Home = () => {
   return (
@@ -8,6 +11,9 @@ const Home = () => {
       <div>
         <Navebar />
         <Hero />
+        <Catogary />
+        <Value />
+        <Product />
       </div>
     </div>
   );
