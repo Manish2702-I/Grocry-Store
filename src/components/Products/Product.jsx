@@ -13,7 +13,7 @@ const Product = () => {
             <div className='flex gap-5 justify-center mt-20'>
               {productlist.map((items , index) =>{
                 return (
-                  <div className={`${isActivetab === items ? 'bg-orange-700 text-white' : 'bg-zinc-400'} px-3 py-2 rounded-lg text-2xl font-semibold`}>
+                  <div className={`${isActivetab === items ? 'bg-orange-700 text-white' : 'bg-zinc-400'} px-3 py-2 rounded-lg text-2xl font-semibold cursor-pointer`} onClick={()=>{setisActivetab(items)}}>
                     {items}
                   </div>
                 )
